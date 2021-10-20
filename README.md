@@ -21,8 +21,8 @@ PRIMARY KEY (`UF`)
 ```
 #
 
-__*Criação da tabela*__
-A tabela é composta com erros propositais para que o comando "UPDATE" possa corrigi-los
+__*Criação da tabela*__ - 
+ A tabela é composta com erros propositais para que o comando "UPDATE" possa corrigi-los.
 ```
 select * from estados3;
 INSERT INTO estados3 (UF, Estado) VALUES 
@@ -58,11 +58,23 @@ INSERT INTO estados3 (UF, Estado) VALUES
 __*Comando UPDATE na prática:*__
 ```
 UPDATE estados3
-SET UF = 'AL'
-WHERE Estado ='Alagoas';
+SET UF = 'MS'
+WHERE Estado ='Mato Grosso do Sul';
+
+UPDATE estados3
+SET UF = 'TO'
+WHERE Estado ='Tocantins';
+
+UPDATE estados3
+SET UF = 'RR'
+WHERE Estado ='Roraima';
+
+UPDATE estados3
+SET Estado = 'Rio Grande do Sul'
+WHERE UF ='RS';
 ```
 #
-Sintaxe:
+Sintaxe do comando UPDATE:
 ```
 UPDATE tabela
 SET campo1 = 'valorNovo'
