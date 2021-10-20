@@ -60,15 +60,15 @@ __*Comando UPDATE na prática:*__
 UPDATE estados3
 SET UF = 'MS'
 WHERE Estado ='Mato Grosso do Sul';
-
+```
 UPDATE estados3
 SET UF = 'TO'
 WHERE Estado ='Tocantins';
-
+```
 UPDATE estados3
 SET UF = 'RR'
 WHERE Estado ='Roraima';
-
+```
 UPDATE estados3
 SET Estado = 'Rio Grande do Sul'
 WHERE UF ='RS';
