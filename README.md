@@ -11,7 +11,7 @@ use ETEC;
 ```
 #
 
-*Criação da tabela*
+*Sintaxe da tabela*
 ```
 CREATE TABLE `estados3` (
 `UF` char(2) NOT NULL,
@@ -20,6 +20,8 @@ PRIMARY KEY (`UF`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 ```
 #
+
+*Criação da tabela*
 *Comando UPDATE na prática:*
 ```
 UPDATE estados3
