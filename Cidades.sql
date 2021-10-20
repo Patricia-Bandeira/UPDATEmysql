@@ -8,7 +8,7 @@ PRIMARY KEY (`UF`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 select * from estados3;
-#SHOW COLUMNS FROM estados3 LIKE 'AC';
+
 
 INSERT INTO estados3 (UF, Estado) VALUES 
   ('AC','Acre'),  
