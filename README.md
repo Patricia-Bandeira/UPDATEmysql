@@ -1,2 +1,4 @@
 # UPDATEmysql
- usando o comando "update" na prática dentro do MySql 
+ Usando o comando "update" na prática dentro do MySql
+#
+O código tem a função de **corrigir** erros.
