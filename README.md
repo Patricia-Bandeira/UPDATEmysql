@@ -3,8 +3,24 @@
  
 O código tem a função de **corrigir** erros.
 #
-*Comando UPDATE na prática:*
 
+*Início do código*
+```
+CREATE DATABASE ETEC;
+use ETEC;
+```
+#
+
+*Criação da tabela*
+```
+CREATE TABLE `estados3` (
+`UF` char(2) NOT NULL,
+`Estado` varchar(30) DEFAULT NULL,
+PRIMARY KEY (`UF`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+```
+#
+*Comando UPDATE na prática:*
 ```
 UPDATE estados3
 SET UF = 'AL'
@@ -17,3 +33,5 @@ UPDATE tabela
 SET campo1 = 'valorNovo'
 WHERE Estado ='critério';
 ```
+
+
