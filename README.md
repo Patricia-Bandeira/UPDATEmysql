@@ -1,7 +1,7 @@
 # UPDATE - mysql
  Usando o comando "update" na prática dentro do MySql
  
-O código tem a função de **corrigir** erros.
+Este código tem a função de **corrigir** erros.
 #
 
 __*Início do código*__
