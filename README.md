@@ -79,7 +79,7 @@ SET Estado = 'Rio Grande do Sul'
 WHERE UF ='RS';
 ```
 #
-Sintaxe do comando UPDATE:
+__*Sintaxe do comando UPDATE:*__
 ```
 UPDATE tabela
 SET campo1 = 'valorNovo'
